@@ -92,9 +92,8 @@ footer{
     gap: 1.5rem;
 }
 
-.carrito-vacio{
+.carrito-vacio, .gracias{
     color: var(--gris);
-    display:none;
 }
 
 .carrito-productos{
@@ -171,6 +170,10 @@ footer{
 }
 
 
+.ocultar{
+    display: none;
+}
+
 
 main{
     background-color: var(--rojo);
@@ -182,6 +185,7 @@ main{
 
 .titulo-main{
     color: var(--gris);
+    margin-bottom: 1.5rem;
 }
 
 .contenedor-productos{
@@ -198,9 +202,15 @@ main{
     gap: .30rem;
 }
 
+.producto{
+    display: block;
+    align-items: center;    
+}
+
 .producto > img{
     max-width: 100%;
     border-radius: 1rem;
+    height: 5rem;
 }
 
 .agregar-prod{
