@@ -4,7 +4,7 @@ fetch('./javascript/productos.json')
     .then(response => response.json())
     .then(data => {
         menu = data;
-        cargarmenu(menu);
+        cargarMenu(menu);
         console.log(menu)
     })
 
@@ -18,7 +18,7 @@ let botonesAgregar = document.querySelectorAll(".agregar-prod")
 const cantidad = document.querySelector('#cantidad')
 
 
-function cargarmenu (productosSeleccion) {
+function cargarMenu (productosSeleccion) {
     contenedorProductos.innerHTML = " ";
 
     productosSeleccion.forEach(producto => {
@@ -39,7 +39,7 @@ function cargarmenu (productosSeleccion) {
 
 }
 
-cargarmenu(menu);
+cargarMenu(menu);
 
 botonCategorias.forEach(boton => {
     boton.addEventListener ('click', (e) => {
@@ -48,10 +48,10 @@ botonCategorias.forEach(boton => {
 
         if (e.currentTarget.id != "todos") {
             const productosSeleccion = menu.filter(menu => menu.categoria === e.currentTarget.id)
-            cargarmenu(productosSeleccion);
+            cargarMenu(productosSeleccion);
 
         } else {
-            cargarmenu(menu);
+            cargarMenu(menu);
         }
     })
 })
