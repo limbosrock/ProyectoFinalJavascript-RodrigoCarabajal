@@ -12,7 +12,7 @@
 
     {   "nombre": "leche chocolatada", 
         "precio": 350, 
-        "imagen": "../img/leche.jpg" ,
+        "imagen": "./img/leche.jpg" ,
         "categoria": "CAFETERIA",
         "descripcion": "Leche con cacao",
         "id": "c-02"
