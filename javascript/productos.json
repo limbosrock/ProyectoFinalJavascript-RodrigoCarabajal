@@ -4,7 +4,7 @@
 
     {   "nombre": "cafe",
         "precio": 500, 
-        "imagen": "../img/cafe.jpeg" ,
+        "imagen": "./img/cafe.jpeg" ,
         "categoria": "CAFETERIA", 
         "descripcion": "Cafe en grano", 
         "id": "c-01"
@@ -20,7 +20,7 @@
 
     {   "nombre": "te", 
         "precio": 200, 
-        "imagen": "../img/te.jpeg" ,
+        "imagen": "./img/te.jpeg" ,
         "categoria": "CAFETERIA", 
         "descripcion": "Te de saquito", 
         "id": "c-03"
@@ -29,14 +29,14 @@
     {   "nombre": "pan",
         "precio": 300,
         "categoria": "PASTELERIA",
-        "imagen": "../img/pan.jpeg" ,
+        "imagen": "./img/pan.jpeg" ,
         "descripcion": "Pan de molde con manteca",
         "id": "p-01"
     },
 
     {   "nombre": "medialunas", 
         "precio": 500, 
-        "imagen": "../img/medialunas.jpeg" ,
+        "imagen": "./img/medialunas.jpeg" ,
         "categoria": "PASTELERIA", 
         "descripcion": "Medialunas dulces", 
         "id": "p-02"
@@ -44,7 +44,7 @@
 
     {   "nombre": "torta", 
         "precio": 500,
-        "imagen": "../img/torta.jpg" ,
+        "imagen": "./img/torta.jpg" ,
         "categoria": "PASTELERIA", 
         "descripcion": "De vainilla con crema", 
         "id": "p-03"
@@ -52,7 +52,7 @@
 
     {   "nombre": "gaseosa", 
         "precio": 350, 
-        "imagen": "../img/gaseosas.jpg" ,
+        "imagen": "./img/gaseosas.jpg" ,
         "categoria": "BEBIDA", 
         "descripcion": "Lima limon", 
         "id": "b-01"
@@ -60,14 +60,14 @@
 
     {   "nombre": "agua sin gas", 
         "precio": 350, 
-        "imagen": "../img/agua.jpeg" ,
+        "imagen": "./img/agua.jpeg" ,
         "categoria": "BEBIDA", 
         "descripcion": "agua", 
         "id": "b-02"
     },
 
     {   "nombre": "cerveza 500cm³", 
-        "imagen": "../img/cerveza.jpeg" ,
+        "imagen": "./img/cerveza.jpeg" ,
         "precio": 350, 
         "categoria": "BEBIDA", 
         "descripcion": "Quilmes", 
